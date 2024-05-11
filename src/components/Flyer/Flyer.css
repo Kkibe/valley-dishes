@@ -1,0 +1,42 @@
+
+.flyer{
+    width: auto;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.flyer .content{
+    flex: 1 1 45rem;
+}
+
+.flyer .content span{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.flyer .content h3{
+    color: var(--black);
+    font-size: 7rem;
+}
+
+
+.flyer .content p{
+    font-size: 2.2rem;
+}
+
+
+
+.flyer .image{
+    flex: 1 1 40rem;
+}
+
+.flyer .image img{
+    width: 100%;
+    object-fit: cover;
+}

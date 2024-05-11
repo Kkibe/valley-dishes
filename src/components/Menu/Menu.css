@@ -1,0 +1,78 @@
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.box{
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+
+}
+
+
+.box .image{
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: fill;
+}
+
+.box .image .icon{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .image .icon:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+.box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+
+
+.box .content .stars{
+    padding: 1rem;
+}
+
+.box .content .stars .star{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+
+.box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+} 
+
+
+.box .content .price{
+    color: var(--green);
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
